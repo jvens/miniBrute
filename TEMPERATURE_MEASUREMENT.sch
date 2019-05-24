@@ -1,0 +1,201 @@
+EESchema Schematic File Version 4
+LIBS:miniBrute-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 8 9
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 3000 2000 0    50   Input ~ 0
+SENSOR_IN
+Text HLabel 7100 2100 2    50   Output ~ 0
+TEMPERATURE_FAULT
+Text HLabel 7100 1400 2    50   Output ~ 0
+AN_TEMPERATURE
+$Comp
+L Comparator:LM393 U?
+U 1 1 5BF44834
+P 5300 2100
+F 0 "U?" H 5300 1733 50  0000 C CNN
+F 1 "LM393" H 5300 1824 50  0000 C CNN
+F 2 "" H 5300 2100 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm393-n.pdf" H 5300 2100 50  0001 C CNN
+	1    5300 2100
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	3000 2000 4800 2000
+Text Notes 3400 1900 2    50   ~ 0
+10mV/degC
+$Comp
+L Device:R_POT_TRIM_US RV?
+U 1 1 5BF4C830
+P 4100 3050
+F 0 "RV?" H 4032 3096 50  0000 R CNN
+F 1 "5k" H 4032 3005 50  0000 R CNN
+F 2 "" H 4100 3050 50  0001 C CNN
+F 3 "~" H 4100 3050 50  0001 C CNN
+	1    4100 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5BF4C9DB
+P 4500 3200
+F 0 "C?" H 4592 3246 50  0000 L CNN
+F 1 "1uF" H 4592 3155 50  0000 L CNN
+F 2 "" H 4500 3200 50  0001 C CNN
+F 3 "~" H 4500 3200 50  0001 C CNN
+	1    4500 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 5BF4CA74
+P 4100 2700
+F 0 "R?" H 4168 2746 50  0000 L CNN
+F 1 "13k" H 4168 2655 50  0000 L CNN
+F 2 "" H 4100 2700 50  0001 C CNN
+F 3 "~" H 4100 2700 50  0001 C CNN
+	1    4100 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5BF4CABC
+P 4900 3200
+F 0 "C?" H 4992 3246 50  0000 L CNN
+F 1 "0.1uF" H 4992 3155 50  0000 L CNN
+F 2 "" H 4900 3200 50  0001 C CNN
+F 3 "~" H 4900 3200 50  0001 C CNN
+	1    4900 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 5BF4CAF8
+P 5300 2600
+F 0 "R?" V 5095 2600 50  0000 C CNN
+F 1 "100k" V 5186 2600 50  0000 C CNN
+F 2 "" H 5300 2600 50  0001 C CNN
+F 3 "~" H 5300 2600 50  0001 C CNN
+	1    5300 2600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4100 2800 4100 2900
+Wire Wire Line
+	4250 3050 4500 3050
+Wire Wire Line
+	4900 3050 4900 2600
+Wire Wire Line
+	4900 2200 5000 2200
+Wire Wire Line
+	5200 2600 4900 2600
+Connection ~ 4900 2600
+Wire Wire Line
+	4900 2600 4900 2200
+Wire Wire Line
+	4900 3050 4900 3100
+Connection ~ 4900 3050
+Wire Wire Line
+	4500 3050 4500 3100
+Connection ~ 4500 3050
+Wire Wire Line
+	4500 3050 4900 3050
+$Comp
+L power:GND #PWR?
+U 1 1 5BF4CC14
+P 4100 3200
+F 0 "#PWR?" H 4100 2950 50  0001 C CNN
+F 1 "GND" H 4105 3027 50  0000 C CNN
+F 2 "" H 4100 3200 50  0001 C CNN
+F 3 "" H 4100 3200 50  0001 C CNN
+	1    4100 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BF4CC34
+P 4500 3300
+F 0 "#PWR?" H 4500 3050 50  0001 C CNN
+F 1 "GND" H 4505 3127 50  0000 C CNN
+F 2 "" H 4500 3300 50  0001 C CNN
+F 3 "" H 4500 3300 50  0001 C CNN
+	1    4500 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BF4CC4D
+P 4900 3300
+F 0 "#PWR?" H 4900 3050 50  0001 C CNN
+F 1 "GND" H 4905 3127 50  0000 C CNN
+F 2 "" H 4900 3300 50  0001 C CNN
+F 3 "" H 4900 3300 50  0001 C CNN
+	1    4900 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5BF4CC9D
+P 4100 2600
+F 0 "#PWR?" H 4100 2450 50  0001 C CNN
+F 1 "+5V" H 4115 2773 50  0000 C CNN
+F 2 "" H 4100 2600 50  0001 C CNN
+F 3 "" H 4100 2600 50  0001 C CNN
+	1    4100 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 2600 5700 2600
+Wire Wire Line
+	5600 2100 5700 2100
+Wire Wire Line
+	5700 2100 5700 2600
+$Comp
+L Device:R_Small_US R?
+U 1 1 5BF4CEAB
+P 5900 1900
+F 0 "R?" H 5968 1946 50  0000 L CNN
+F 1 "1k" H 5968 1855 50  0000 L CNN
+F 2 "" H 5900 1900 50  0001 C CNN
+F 3 "~" H 5900 1900 50  0001 C CNN
+	1    5900 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 2100 5900 2100
+Wire Wire Line
+	5900 2100 5900 2000
+Connection ~ 5700 2100
+$Comp
+L power:+5V #PWR?
+U 1 1 5BF4D09B
+P 5900 1800
+F 0 "#PWR?" H 5900 1650 50  0001 C CNN
+F 1 "+5V" H 5915 1973 50  0000 C CNN
+F 2 "" H 5900 1800 50  0001 C CNN
+F 3 "" H 5900 1800 50  0001 C CNN
+	1    5900 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 1400 4800 1400
+Wire Wire Line
+	4800 1400 4800 2000
+Connection ~ 4800 2000
+Wire Wire Line
+	4800 2000 5000 2000
+Wire Wire Line
+	5900 2100 7100 2100
+Connection ~ 5900 2100
+$EndSCHEMATC

@@ -1,0 +1,819 @@
+EESchema Schematic File Version 4
+LIBS:miniBrute-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 9
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L dk_Diodes-Rectifiers-Single:1N4148W-7-F D?
+U 1 1 5BE6F473
+P 3900 1500
+F 0 "D?" H 3900 1737 60  0000 C CNN
+F 1 "1N4148W-7-F" H 3900 1631 60  0000 C CNN
+F 2 "digikey-footprints:SOD-123" H 4100 1700 60  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds30086.pdf" H 4100 1800 60  0001 L CNN
+F 4 "1N4148W-FDICT-ND" H 4100 1900 60  0001 L CNN "Digi-Key_PN"
+F 5 "1N4148W-7-F" H 4100 2000 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 4100 2100 60  0001 L CNN "Category"
+F 7 "Diodes - Rectifiers - Single" H 4100 2200 60  0001 L CNN "Family"
+F 8 "https://www.diodes.com/assets/Datasheets/ds30086.pdf" H 4100 2300 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/diodes-incorporated/1N4148W-7-F/1N4148W-FDICT-ND/815280" H 4100 2400 60  0001 L CNN "DK_Detail_Page"
+F 10 "DIODE GEN PURP 100V 300MA SOD123" H 4100 2500 60  0001 L CNN "Description"
+F 11 "Diodes Incorporated" H 4100 2600 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 4100 2700 60  0001 L CNN "Status"
+	1    3900 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L dk_Diodes-Rectifiers-Single:1N4148W-7-F D?
+U 1 1 5BE6F52D
+P 4700 1500
+F 0 "D?" H 4700 1737 60  0000 C CNN
+F 1 "1N4148W-7-F" H 4700 1631 60  0000 C CNN
+F 2 "digikey-footprints:SOD-123" H 4900 1700 60  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds30086.pdf" H 4900 1800 60  0001 L CNN
+F 4 "1N4148W-FDICT-ND" H 4900 1900 60  0001 L CNN "Digi-Key_PN"
+F 5 "1N4148W-7-F" H 4900 2000 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 4900 2100 60  0001 L CNN "Category"
+F 7 "Diodes - Rectifiers - Single" H 4900 2200 60  0001 L CNN "Family"
+F 8 "https://www.diodes.com/assets/Datasheets/ds30086.pdf" H 4900 2300 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/diodes-incorporated/1N4148W-7-F/1N4148W-FDICT-ND/815280" H 4900 2400 60  0001 L CNN "DK_Detail_Page"
+F 10 "DIODE GEN PURP 100V 300MA SOD123" H 4900 2500 60  0001 L CNN "Description"
+F 11 "Diodes Incorporated" H 4900 2600 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 4900 2700 60  0001 L CNN "Status"
+	1    4700 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L dk_Diodes-Rectifiers-Single:1N4148W-7-F D?
+U 1 1 5BE6F587
+P 3900 2000
+F 0 "D?" H 3900 2237 60  0000 C CNN
+F 1 "1N4148W-7-F" H 3900 2131 60  0000 C CNN
+F 2 "digikey-footprints:SOD-123" H 4100 2200 60  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds30086.pdf" H 4100 2300 60  0001 L CNN
+F 4 "1N4148W-FDICT-ND" H 4100 2400 60  0001 L CNN "Digi-Key_PN"
+F 5 "1N4148W-7-F" H 4100 2500 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 4100 2600 60  0001 L CNN "Category"
+F 7 "Diodes - Rectifiers - Single" H 4100 2700 60  0001 L CNN "Family"
+F 8 "https://www.diodes.com/assets/Datasheets/ds30086.pdf" H 4100 2800 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/diodes-incorporated/1N4148W-7-F/1N4148W-FDICT-ND/815280" H 4100 2900 60  0001 L CNN "DK_Detail_Page"
+F 10 "DIODE GEN PURP 100V 300MA SOD123" H 4100 3000 60  0001 L CNN "Description"
+F 11 "Diodes Incorporated" H 4100 3100 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 4100 3200 60  0001 L CNN "Status"
+	1    3900 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L dk_Diodes-Rectifiers-Single:1N4148W-7-F D?
+U 1 1 5BE6F5EB
+P 4700 2000
+F 0 "D?" H 4700 2237 60  0000 C CNN
+F 1 "1N4148W-7-F" H 4700 2131 60  0000 C CNN
+F 2 "digikey-footprints:SOD-123" H 4900 2200 60  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds30086.pdf" H 4900 2300 60  0001 L CNN
+F 4 "1N4148W-FDICT-ND" H 4900 2400 60  0001 L CNN "Digi-Key_PN"
+F 5 "1N4148W-7-F" H 4900 2500 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 4900 2600 60  0001 L CNN "Category"
+F 7 "Diodes - Rectifiers - Single" H 4900 2700 60  0001 L CNN "Family"
+F 8 "https://www.diodes.com/assets/Datasheets/ds30086.pdf" H 4900 2800 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/diodes-incorporated/1N4148W-7-F/1N4148W-FDICT-ND/815280" H 4900 2900 60  0001 L CNN "DK_Detail_Page"
+F 10 "DIODE GEN PURP 100V 300MA SOD123" H 4900 3000 60  0001 L CNN "Description"
+F 11 "Diodes Incorporated" H 4900 3100 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 4900 3200 60  0001 L CNN "Status"
+	1    4700 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 1500 4300 1500
+Wire Wire Line
+	4300 1500 4300 1100
+Wire Wire Line
+	4300 1100 2900 1100
+Connection ~ 4300 1500
+Wire Wire Line
+	4300 1500 4500 1500
+Wire Wire Line
+	4100 2000 4300 2000
+Wire Wire Line
+	4300 2000 4300 2400
+Wire Wire Line
+	4300 2400 2900 2400
+Connection ~ 4300 2000
+Wire Wire Line
+	4300 2000 4500 2000
+Wire Wire Line
+	3700 2000 3500 2000
+Wire Wire Line
+	3500 2000 3500 1500
+Wire Wire Line
+	3500 1500 3700 1500
+Wire Wire Line
+	4900 1500 5100 1500
+Wire Wire Line
+	5100 1500 5100 1600
+Wire Wire Line
+	5100 2000 4900 2000
+$Comp
+L power:GND #PWR?
+U 1 1 5BE6F89C
+P 3500 2100
+F 0 "#PWR?" H 3500 1850 50  0001 C CNN
+F 1 "GND" H 3505 1927 50  0000 C CNN
+F 2 "" H 3500 2100 50  0001 C CNN
+F 3 "" H 3500 2100 50  0001 C CNN
+	1    3500 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 2100 3500 2000
+Connection ~ 3500 2000
+Text HLabel 2600 1100 0    50   Input ~ 0
+IN_A
+Text HLabel 2600 2400 0    50   Input ~ 0
+IN_B
+Wire Wire Line
+	2600 2400 2900 2400
+Connection ~ 2900 2400
+Wire Wire Line
+	2600 1100 2900 1100
+Connection ~ 2900 1100
+Wire Wire Line
+	5100 1600 5400 1600
+Wire Wire Line
+	6400 1600 6400 1700
+Connection ~ 5100 1600
+Wire Wire Line
+	5100 1600 5100 2000
+Wire Wire Line
+	5400 1600 5400 1700
+Connection ~ 5400 1600
+Wire Wire Line
+	5400 1600 5900 1600
+Wire Wire Line
+	5900 1600 5900 1700
+Connection ~ 5900 1600
+Wire Wire Line
+	5900 1600 6400 1600
+$Comp
+L power:GND #PWR?
+U 1 1 5BE706F5
+P 5400 1900
+F 0 "#PWR?" H 5400 1650 50  0001 C CNN
+F 1 "GND" H 5405 1727 50  0000 C CNN
+F 2 "" H 5400 1900 50  0001 C CNN
+F 3 "" H 5400 1900 50  0001 C CNN
+	1    5400 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BE70710
+P 5900 1900
+F 0 "#PWR?" H 5900 1650 50  0001 C CNN
+F 1 "GND" H 5905 1727 50  0000 C CNN
+F 2 "" H 5900 1900 50  0001 C CNN
+F 3 "" H 5900 1900 50  0001 C CNN
+	1    5900 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BE7072B
+P 6400 1900
+F 0 "#PWR?" H 6400 1650 50  0001 C CNN
+F 1 "GND" H 6405 1727 50  0000 C CNN
+F 2 "" H 6400 1900 50  0001 C CNN
+F 3 "" H 6400 1900 50  0001 C CNN
+	1    6400 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8300 1700 8400 1700
+Wire Wire Line
+	8400 1700 8400 2700
+Wire Wire Line
+	7700 1800 7600 1800
+Wire Wire Line
+	8800 1800 8800 1700
+Wire Wire Line
+	8800 1700 8600 1700
+Connection ~ 8400 1700
+$Comp
+L power:GND #PWR?
+U 1 1 5BE75227
+P 8800 2000
+F 0 "#PWR?" H 8800 1750 50  0001 C CNN
+F 1 "GND" H 8805 1827 50  0000 C CNN
+F 2 "" H 8800 2000 50  0001 C CNN
+F 3 "" H 8800 2000 50  0001 C CNN
+	1    8800 2000
+	1    0    0    -1  
+$EndComp
+Text HLabel 9400 1700 2    50   Output ~ 0
+OVERCURRENT_FAULT
+Wire Wire Line
+	9400 1700 8800 1700
+Connection ~ 8800 1700
+Text Notes 9500 2850 2    50   ~ 0
+ADD HYSTERISIS TO THE SYSTEM
+$Comp
+L PartLibrary:MCP41HV51 U?
+U 1 1 5BE81AD3
+P 5950 3550
+F 0 "U?" H 6200 3050 50  0000 C CNN
+F 1 "MCP41HV51" H 6400 2950 50  0000 C CNN
+F 2 "" H 6000 3600 50  0001 C CNN
+F 3 "" H 6000 3600 50  0001 C CNN
+	1    5950 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+15V #PWR?
+U 1 1 5BE81B55
+P 6500 3300
+F 0 "#PWR?" H 6500 3150 50  0001 C CNN
+F 1 "+15V" H 6515 3473 50  0000 C CNN
+F 2 "" H 6500 3300 50  0001 C CNN
+F 3 "" H 6500 3300 50  0001 C CNN
+	1    6500 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BE81B80
+P 6500 3800
+F 0 "#PWR?" H 6500 3550 50  0001 C CNN
+F 1 "GND" H 6505 3627 50  0000 C CNN
+F 2 "" H 6500 3800 50  0001 C CNN
+F 3 "" H 6500 3800 50  0001 C CNN
+	1    6500 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 3550 7200 3550
+Wire Wire Line
+	6400 3700 6500 3700
+Wire Wire Line
+	6500 3700 6500 3800
+Wire Wire Line
+	6400 3400 6500 3400
+Wire Wire Line
+	6500 3400 6500 3300
+$Comp
+L power:+15V #PWR?
+U 1 1 5BE83E54
+P 6100 3000
+F 0 "#PWR?" H 6100 2850 50  0001 C CNN
+F 1 "+15V" H 6115 3173 50  0000 C CNN
+F 2 "" H 6100 3000 50  0001 C CNN
+F 3 "" H 6100 3000 50  0001 C CNN
+	1    6100 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BE83E7F
+P 6000 4100
+F 0 "#PWR?" H 6000 3850 50  0001 C CNN
+F 1 "GND" H 6005 3927 50  0000 C CNN
+F 2 "" H 6000 4100 50  0001 C CNN
+F 3 "" H 6000 4100 50  0001 C CNN
+	1    6000 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 3950 6000 4000
+Wire Wire Line
+	5900 3950 5900 4000
+Wire Wire Line
+	5900 4000 6000 4000
+Connection ~ 6000 4000
+Wire Wire Line
+	6000 4000 6000 4100
+Text HLabel 2600 2850 0    50   BiDi ~ 10
+SPI_BUS
+Wire Bus Line
+	2600 2850 4500 2850
+Entry Wire Line
+	4500 3200 4600 3300
+Entry Wire Line
+	4500 3300 4600 3400
+Entry Wire Line
+	4500 3400 4600 3500
+Entry Wire Line
+	4500 3500 4600 3600
+Entry Wire Line
+	4500 3600 4600 3700
+Entry Wire Line
+	4500 3700 4600 3800
+Text Label 4600 3300 0    50   ~ 0
+I_LIMIT_nCS
+Wire Wire Line
+	4600 3300 5500 3300
+Wire Wire Line
+	4600 3400 5500 3400
+Wire Wire Line
+	4600 3500 5500 3500
+Wire Wire Line
+	4600 3600 5500 3600
+Wire Wire Line
+	4600 3700 5500 3700
+Wire Wire Line
+	4600 3800 5500 3800
+Text Label 4600 3400 0    50   ~ 0
+SCK
+Text Label 4600 3500 0    50   ~ 0
+MOSI
+Text Label 4600 3600 0    50   ~ 0
+MISO
+Text Label 4600 3700 0    50   ~ 0
+I_LIMIT_nWLAT
+Text Label 4600 3800 0    50   ~ 0
+I_LIMIT_nSHDN
+$Comp
+L pspice:OPAMP U?
+U 1 1 5BE99618
+P 8100 4200
+F 0 "U?" H 8300 4450 50  0000 L CNN
+F 1 "OPA2196" H 8300 4350 50  0000 L CNN
+F 2 "" H 8100 4200 50  0001 C CNN
+F 3 "~" H 8100 4200 50  0001 C CNN
+	1    8100 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5BE9984A
+P 5800 3000
+F 0 "#PWR?" H 5800 2850 50  0001 C CNN
+F 1 "+5V" H 5815 3173 50  0000 C CNN
+F 2 "" H 5800 3000 50  0001 C CNN
+F 3 "" H 5800 3000 50  0001 C CNN
+	1    5800 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 3000 5800 3100
+Wire Wire Line
+	5800 3100 5900 3100
+Wire Wire Line
+	5900 3100 5900 3150
+Wire Wire Line
+	6100 3000 6100 3100
+Wire Wire Line
+	6100 3100 6000 3100
+Wire Wire Line
+	6000 3100 6000 3150
+Wire Wire Line
+	7800 4100 7400 4100
+$Comp
+L power:GND #PWR?
+U 1 1 5BEA40DB
+P 8000 4500
+F 0 "#PWR?" H 8000 4250 50  0001 C CNN
+F 1 "GND" H 8005 4327 50  0000 C CNN
+F 2 "" H 8000 4500 50  0001 C CNN
+F 3 "" H 8000 4500 50  0001 C CNN
+	1    8000 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+15V #PWR?
+U 1 1 5BEA410C
+P 8000 3900
+F 0 "#PWR?" H 8000 3750 50  0001 C CNN
+F 1 "+15V" H 8015 4073 50  0000 C CNN
+F 2 "" H 8000 3900 50  0001 C CNN
+F 3 "" H 8000 3900 50  0001 C CNN
+	1    8000 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8400 4200 8500 4200
+Wire Wire Line
+	7800 4300 7700 4300
+Wire Wire Line
+	7700 4300 7700 4750
+Wire Wire Line
+	7700 4750 8500 4750
+Wire Wire Line
+	8500 4750 8500 4200
+Connection ~ 8500 4200
+Wire Wire Line
+	8500 4200 9400 4200
+$Comp
+L power:GND #PWR?
+U 1 1 5BEAB87E
+P 7400 4400
+F 0 "#PWR?" H 7400 4150 50  0001 C CNN
+F 1 "GND" H 7405 4227 50  0000 C CNN
+F 2 "" H 7400 4400 50  0001 C CNN
+F 3 "" H 7400 4400 50  0001 C CNN
+	1    7400 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7400 4000 7400 4100
+Wire Wire Line
+	7400 4200 7400 4100
+Connection ~ 7400 4100
+Text HLabel 9400 4200 2    50   Output ~ 0
+AN_CURRENT
+Text Notes 7100 1550 2    50   ~ 0
+12V = 10kA
+Text Notes 9350 4150 2    50   ~ 0
+4.8V = 10kA
+$Comp
+L Comparator:LM393 U?
+U 2 1 5BF449D6
+P 8000 1700
+AR Path="/5BF3989C/5BF449D6" Ref="U?"  Part="2" 
+AR Path="/5BE6F104/5BF449D6" Ref="U?"  Part="2" 
+F 0 "U?" H 8000 1400 50  0000 C CNN
+F 1 "LM393" H 8050 1500 50  0000 C CNN
+F 2 "" H 8000 1700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm393-n.pdf" H 8000 1700 50  0001 C CNN
+	2    8000 1700
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	8600 1600 8600 1700
+Connection ~ 8600 1700
+Wire Wire Line
+	8600 1700 8400 1700
+$Comp
+L power:+5V #PWR?
+U 1 1 5BF49C83
+P 8600 1400
+F 0 "#PWR?" H 8600 1250 50  0001 C CNN
+F 1 "+5V" H 8615 1573 50  0000 C CNN
+F 2 "" H 8600 1400 50  0001 C CNN
+F 3 "" H 8600 1400 50  0001 C CNN
+	1    8600 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 5BF57B30
+P 8600 1500
+F 0 "R?" H 8668 1546 50  0000 L CNN
+F 1 "1k" H 8668 1455 50  0000 L CNN
+F 2 "" H 8600 1500 50  0001 C CNN
+F 3 "~" H 8600 1500 50  0001 C CNN
+	1    8600 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 5BF57C0D
+P 8200 2700
+F 0 "R?" V 7995 2700 50  0000 C CNN
+F 1 "10k" V 8086 2700 50  0000 C CNN
+F 2 "" H 8200 2700 50  0001 C CNN
+F 3 "~" H 8200 2700 50  0001 C CNN
+	1    8200 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 5BF57C9F
+P 7400 3900
+F 0 "R?" H 7468 3946 50  0000 L CNN
+F 1 "15k" H 7468 3855 50  0000 L CNN
+F 2 "" H 7400 3900 50  0001 C CNN
+F 3 "~" H 7400 3900 50  0001 C CNN
+	1    7400 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 5BF57D25
+P 7400 4300
+F 0 "R?" H 7468 4346 50  0000 L CNN
+F 1 "10k" H 7468 4255 50  0000 L CNN
+F 2 "" H 7400 4300 50  0001 C CNN
+F 3 "~" H 7400 4300 50  0001 C CNN
+	1    7400 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 5BF57E13
+P 5400 1800
+F 0 "R?" H 5468 1846 50  0000 L CNN
+F 1 "100" H 5468 1755 50  0000 L CNN
+F 2 "" H 5400 1800 50  0001 C CNN
+F 3 "~" H 5400 1800 50  0001 C CNN
+	1    5400 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5BF5D672
+P 8800 1900
+F 0 "C?" H 8892 1946 50  0000 L CNN
+F 1 "100pF" H 8892 1855 50  0000 L CNN
+F 2 "" H 8800 1900 50  0001 C CNN
+F 3 "~" H 8800 1900 50  0001 C CNN
+	1    8800 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5BF5D6F8
+P 5900 1800
+F 0 "C?" H 5992 1846 50  0000 L CNN
+F 1 "1uF" H 5992 1755 50  0000 L CNN
+F 2 "" H 5900 1800 50  0001 C CNN
+F 3 "~" H 5900 1800 50  0001 C CNN
+	1    5900 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5BF5D7BC
+P 6400 1800
+F 0 "C?" H 6492 1846 50  0000 L CNN
+F 1 "100pF" H 6492 1755 50  0000 L CNN
+F 2 "" H 6400 1800 50  0001 C CNN
+F 3 "~" H 6400 1800 50  0001 C CNN
+	1    6400 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5BF5D80C
+P 8000 2900
+F 0 "C?" H 8092 2946 50  0000 L CNN
+F 1 "0.1uF" H 8092 2855 50  0000 L CNN
+F 2 "" H 8000 2900 50  0001 C CNN
+F 3 "~" H 8000 2900 50  0001 C CNN
+	1    8000 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5BF5D8C4
+P 7700 2900
+F 0 "C?" H 7792 2946 50  0000 L CNN
+F 1 "10uF" H 7792 2855 50  0000 L CNN
+F 2 "" H 7700 2900 50  0001 C CNN
+F 3 "~" H 7700 2900 50  0001 C CNN
+	1    7700 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7600 1800 7600 2700
+Wire Wire Line
+	8400 2700 8300 2700
+Wire Wire Line
+	8100 2700 8000 2700
+Wire Wire Line
+	8000 2700 8000 2800
+Wire Wire Line
+	8000 2700 7700 2700
+Wire Wire Line
+	7700 2700 7700 2800
+Connection ~ 8000 2700
+Wire Wire Line
+	7700 2700 7600 2700
+Connection ~ 7700 2700
+Connection ~ 7600 2700
+Wire Wire Line
+	7200 2700 7200 3550
+Wire Wire Line
+	7200 2700 7600 2700
+$Comp
+L power:GND #PWR?
+U 1 1 5BF6647B
+P 8000 3000
+F 0 "#PWR?" H 8000 2750 50  0001 C CNN
+F 1 "GND" H 8005 2827 50  0000 C CNN
+F 2 "" H 8000 3000 50  0001 C CNN
+F 3 "" H 8000 3000 50  0001 C CNN
+	1    8000 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BF664B0
+P 7700 3000
+F 0 "#PWR?" H 7700 2750 50  0001 C CNN
+F 1 "GND" H 7705 2827 50  0000 C CNN
+F 2 "" H 7700 3000 50  0001 C CNN
+F 3 "" H 7700 3000 50  0001 C CNN
+	1    7700 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7400 3800 7400 1600
+Connection ~ 7400 1600
+Wire Wire Line
+	7400 1600 7700 1600
+$Comp
+L Device:R_Small_US R?
+U 1 1 5BF69246
+P 2900 1750
+F 0 "R?" H 2968 1796 50  0000 L CNN
+F 1 "1R6, 3W" H 2968 1705 50  0000 L CNN
+F 2 "" H 2900 1750 50  0001 C CNN
+F 3 "~" H 2900 1750 50  0001 C CNN
+	1    2900 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 1100 2900 1650
+Wire Wire Line
+	2900 1850 2900 2400
+$Comp
+L Comparator:LM393 U?
+U 3 1 5BF6CDDC
+P 8000 1700
+AR Path="/5BF3989C/5BF6CDDC" Ref="U?"  Part="3" 
+AR Path="/5BE6F104/5BF6CDDC" Ref="U?"  Part="3" 
+F 0 "U?" H 7958 1746 50  0000 L CNN
+F 1 "LM393" H 7958 1655 50  0000 L CNN
+F 2 "" H 8000 1700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm393-n.pdf" H 8000 1700 50  0001 C CNN
+	3    8000 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BF6CDE3
+P 7900 2000
+AR Path="/5BF3989C/5BF6CDE3" Ref="#PWR?"  Part="1" 
+AR Path="/5BE6F104/5BF6CDE3" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7900 1750 50  0001 C CNN
+F 1 "GND" H 7905 1827 50  0000 C CNN
+F 2 "" H 7900 2000 50  0001 C CNN
+F 3 "" H 7900 2000 50  0001 C CNN
+	1    7900 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5BF6FB9A
+P 5300 4200
+F 0 "C?" H 5392 4246 50  0000 L CNN
+F 1 "0.1uF" H 5392 4155 50  0000 L CNN
+F 2 "" H 5300 4200 50  0001 C CNN
+F 3 "~" H 5300 4200 50  0001 C CNN
+	1    5300 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BF6FC7C
+P 5300 4300
+AR Path="/5BF3989C/5BF6FC7C" Ref="#PWR?"  Part="1" 
+AR Path="/5BE6F104/5BF6FC7C" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5300 4050 50  0001 C CNN
+F 1 "GND" H 5305 4127 50  0000 C CNN
+F 2 "" H 5300 4300 50  0001 C CNN
+F 3 "" H 5300 4300 50  0001 C CNN
+	1    5300 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+15V #PWR?
+U 1 1 5BF714DC
+P 7900 1400
+F 0 "#PWR?" H 7900 1250 50  0001 C CNN
+F 1 "+15V" H 7915 1573 50  0000 C CNN
+F 2 "" H 7900 1400 50  0001 C CNN
+F 3 "" H 7900 1400 50  0001 C CNN
+	1    7900 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5BF7150F
+P 8200 3700
+F 0 "C?" H 8292 3746 50  0000 L CNN
+F 1 "0.1uF" H 8292 3655 50  0000 L CNN
+F 2 "" H 8200 3700 50  0001 C CNN
+F 3 "~" H 8200 3700 50  0001 C CNN
+	1    8200 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BF7160E
+P 8200 3800
+F 0 "#PWR?" H 8200 3550 50  0001 C CNN
+F 1 "GND" H 8205 3627 50  0000 C CNN
+F 2 "" H 8200 3800 50  0001 C CNN
+F 3 "" H 8200 3800 50  0001 C CNN
+	1    8200 3800
+	1    0    0    -1  
+$EndComp
+Connection ~ 6400 1600
+Wire Wire Line
+	6400 1600 7400 1600
+$Comp
+L Device:C_Small C?
+U 1 1 5BF7AA31
+P 7400 1150
+F 0 "C?" H 7492 1196 50  0000 L CNN
+F 1 "0.1uF" H 7492 1105 50  0000 L CNN
+F 2 "" H 7400 1150 50  0001 C CNN
+F 3 "~" H 7400 1150 50  0001 C CNN
+	1    7400 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BF7AAA1
+P 7400 1250
+AR Path="/5BF3989C/5BF7AAA1" Ref="#PWR?"  Part="1" 
+AR Path="/5BE6F104/5BF7AAA1" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7400 1000 50  0001 C CNN
+F 1 "GND" H 7405 1077 50  0000 C CNN
+F 2 "" H 7400 1250 50  0001 C CNN
+F 3 "" H 7400 1250 50  0001 C CNN
+	1    7400 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5BF7AAD8
+P 4900 4200
+F 0 "C?" H 4992 4246 50  0000 L CNN
+F 1 "0.1uF" H 4992 4155 50  0000 L CNN
+F 2 "" H 4900 4200 50  0001 C CNN
+F 3 "~" H 4900 4200 50  0001 C CNN
+	1    4900 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BF7C54B
+P 4900 4300
+AR Path="/5BF3989C/5BF7C54B" Ref="#PWR?"  Part="1" 
+AR Path="/5BE6F104/5BF7C54B" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4900 4050 50  0001 C CNN
+F 1 "GND" H 4905 4127 50  0000 C CNN
+F 2 "" H 4900 4300 50  0001 C CNN
+F 3 "" H 4900 4300 50  0001 C CNN
+	1    4900 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5BF7C584
+P 4900 4100
+F 0 "#PWR?" H 4900 3950 50  0001 C CNN
+F 1 "+5V" H 4915 4273 50  0000 C CNN
+F 2 "" H 4900 4100 50  0001 C CNN
+F 3 "" H 4900 4100 50  0001 C CNN
+	1    4900 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+15V #PWR?
+U 1 1 5BF7C5BD
+P 5300 4100
+F 0 "#PWR?" H 5300 3950 50  0001 C CNN
+F 1 "+15V" H 5315 4273 50  0000 C CNN
+F 2 "" H 5300 4100 50  0001 C CNN
+F 3 "" H 5300 4100 50  0001 C CNN
+	1    5300 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+15V #PWR?
+U 1 1 5BF7C6D9
+P 7400 1050
+F 0 "#PWR?" H 7400 900 50  0001 C CNN
+F 1 "+15V" H 7415 1223 50  0000 C CNN
+F 2 "" H 7400 1050 50  0001 C CNN
+F 3 "" H 7400 1050 50  0001 C CNN
+	1    7400 1050
+	1    0    0    -1  
+$EndComp
+Wire Bus Line
+	4500 2850 4500 3900
+$Comp
+L power:+15V #PWR?
+U 1 1 5BF82D89
+P 8200 3600
+F 0 "#PWR?" H 8200 3450 50  0001 C CNN
+F 1 "+15V" H 8215 3773 50  0000 C CNN
+F 2 "" H 8200 3600 50  0001 C CNN
+F 3 "" H 8200 3600 50  0001 C CNN
+	1    8200 3600
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
