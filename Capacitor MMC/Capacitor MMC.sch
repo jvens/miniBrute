@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -187,7 +187,7 @@ U 1 1 5D679E77
 P 4000 3500
 F 0 "H1" H 4100 3546 50  0000 L CNN
 F 1 "MountingHole" H 4100 3455 50  0000 L CNN
-F 2 "" H 4000 3500 50  0001 C CNN
+F 2 "MountingHole:MountingHole_5mm_Pad" H 4000 3500 50  0001 C CNN
 F 3 "~" H 4000 3500 50  0001 C CNN
 	1    4000 3500
 	1    0    0    -1  
@@ -198,7 +198,7 @@ U 1 1 5D67A344
 P 4000 3700
 F 0 "H2" H 4100 3746 50  0000 L CNN
 F 1 "MountingHole" H 4100 3655 50  0000 L CNN
-F 2 "" H 4000 3700 50  0001 C CNN
+F 2 "MountingHole:MountingHole_5mm_Pad" H 4000 3700 50  0001 C CNN
 F 3 "~" H 4000 3700 50  0001 C CNN
 	1    4000 3700
 	1    0    0    -1  
@@ -209,7 +209,7 @@ U 1 1 5D67A596
 P 4000 3900
 F 0 "H3" H 4100 3946 50  0000 L CNN
 F 1 "MountingHole" H 4100 3855 50  0000 L CNN
-F 2 "" H 4000 3900 50  0001 C CNN
+F 2 "MountingHole:MountingHole_5mm_Pad" H 4000 3900 50  0001 C CNN
 F 3 "~" H 4000 3900 50  0001 C CNN
 	1    4000 3900
 	1    0    0    -1  
@@ -220,7 +220,7 @@ U 1 1 5D67A70D
 P 4000 4100
 F 0 "H4" H 4100 4146 50  0000 L CNN
 F 1 "MountingHole" H 4100 4055 50  0000 L CNN
-F 2 "" H 4000 4100 50  0001 C CNN
+F 2 "MountingHole:MountingHole_5mm_Pad" H 4000 4100 50  0001 C CNN
 F 3 "~" H 4000 4100 50  0001 C CNN
 	1    4000 4100
 	1    0    0    -1  
